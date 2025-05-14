@@ -5,7 +5,7 @@
 # Date: 24-11-2024
 
 # Variables
-NODE_EXPORTER_VERSION="1.8.2" # Update this to the latest version
+NODE_EXPORTER_VERSION="1.9.1" # Update this to the latest version
 DOWNLOAD_URL="https://github.com/prometheus/node_exporter/releases/download/v$NODE_EXPORTER_VERSION/node_exporter-$NODE_EXPORTER_VERSION.linux-amd64.tar.gz"
 
 echo "Step 1: Downloading Node Exporter version $NODE_EXPORTER_VERSION..."
