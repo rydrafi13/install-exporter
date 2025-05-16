@@ -9,4 +9,5 @@ curl -sfL https://raw.githubusercontent.com/rydrafi13/install-exporter/main/node
 
 haproxy exporter
 ```
+curl -sfL https://raw.githubusercontent.com/rydrafi13/install-exporter/main/haproxy-exporter.sh | sh -
 ```

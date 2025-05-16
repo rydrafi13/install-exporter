@@ -54,7 +54,7 @@ After=network-online.target
 User=haproxy_exporter
 Group=haproxy_exporter
 Type=simple
-ExecStart=/usr/local/bin/haproxy_exporter
+ExecStart=/usr/local/bin/haproxy_exporter  --haproxy.scrape-uri="http://admin:QW!@er34@10.100.1.91:9000/stats;csv"
 
 [Install]
 WantedBy=multi-user.target
