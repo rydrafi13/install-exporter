@@ -74,4 +74,4 @@ if [ $? -ne 0 ]; then
 fi
 
 echo "HAProxy Exporter installed and running successfully!"
-echo "Verify at: http://<your-server-ip>:9100/metrics"
+echo "Verify at: http://<your-server-ip>:9200/metrics"
